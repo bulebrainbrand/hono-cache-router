@@ -1,0 +1,30 @@
+{
+  "name": "hono-cache-router",
+  "version": "1.0.0",
+  "description": "cache routing router for hono",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "npx tsc --noEmit",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "peerDependencies": {
+    "hono": "^4.12.14"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "hono": "^4.12.14",
+    "typescript": "^6.0.3"
+  },
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.js",
+    "default": "./dist/index/js"
+  }
+}
